@@ -46,8 +46,8 @@ button {
   outline: none;
   border-radius: 8px;
   cursor: pointer;
-  
-}     
+
+}
 button:hover,
 .button:focus {
   color: #212121;
@@ -79,8 +79,9 @@ button:hover,
 
 /* Default (this is great for your own brand color!) */
 .button.button-default {
-  color: #ffffff;
-  background-color: #2457F5;
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #212121;
 }
 .button.button-default:hover,
 .button.button-default:focus {
